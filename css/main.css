@@ -99,8 +99,7 @@ nav ul {
 	justify-content: center;
 	align-items: center;
 	flex-direction: row;
-	width: 1080px;
-	height: 103px;
+
 }
 nav ul li {
 	margin: 35px;
@@ -110,6 +109,8 @@ nav ul li a {
 	text-decoration: none;
 	font-size: 30px;
 	font-family: 'Heebo', sans-serif;
+  width: 1080px;
+  height: 103px;
 }
 /* This setups the main content area to be centered on the page */
 
@@ -127,6 +128,7 @@ nav ul li a {
 	align-items: right;
 	width: 392px;
 	height: 392px;
+  margin: 0px;
 }
 /* this sets up your row of illustrations */
 
