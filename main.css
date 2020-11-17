@@ -76,8 +76,8 @@ header {
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
-	width: 100vw;
-	height: 570px;
+	width: 1500px;
+	height: 571px;
 	margin: 0px;
 	display: flex;
 	justify-content: center;
@@ -118,12 +118,11 @@ nav ul li a {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin: 0 auto;
+	margin: 0px;
 	flex-direction: column;
-	width: 90%;
 }
 .bio_picture {
-	background-image: url('../img/bladeebio.jpg');
+	background-image: url('..img/bladeebio.jpg');
 	display: flex;
 	justify-content: right;
 	align-items: right;
@@ -215,14 +214,6 @@ nav ul li a {
 	flex-direction: column;
 	margin: 0 auto;
 }
-
-form {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
 input {
 	width: 500px;
 	height: 75px;
