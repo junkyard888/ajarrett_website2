@@ -275,6 +275,16 @@ footer {
 @media screen and (max-width: 768px){
 Write your Tablet Styles in between these curly brackets
 
+hr {
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid #ccc;
+	margin: 16px;
+	padding: 0px;
+	font-size: 40px;
+}
+
 header {
 	background-image: url('../img/head.jpg');
 	background-size: cover;
@@ -401,7 +411,75 @@ nav ul li a {
 	font-family: 'Monserrat', sans-serif;
 }
 
+.illustration_section img {
+	width: 10%;
+	height: auto;
+	margin: 5%;
+}
+/* This is your contact form on your homepage....style the input, textarea and submit button */
 
+.form_section {
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin: 0 auto;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+input {
+	width: 500px;
+	height: 75px;
+	margin: 1%;
+	font-family: 'Roboto', sans-serif;
+}
+textarea {
+	width: 500px;
+	height: 75px;
+	margin: 1%;
+	font-family: 'Roboto', sans-serif;
+}
+input[type="submit"] {
+	width: 320px;
+	height: 90px;
+	font-family: 'Roboto', sans-serif;
+}
+input, text area, {
+	color: #C4C4C4;
+	font-family: 'Roboto', sans-serif;
+}
+/* This is your footer....don't touch it */
+
+footer {
+	width: 100vw;
+	background-color: #D86867;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin: 0 auto;
+}
+.top_footer {
+	height: 95px;
+	width: 100vw;
+	background-color: #D86867;
+	position: relative;
+	bottom: 0;
+}
+.bottom_footer {
+	height: 75px;
+	width: 100vw;
+	background-color: #000;
+	position: relative;
+	bottom: 0;
+}
 
 
 
@@ -409,6 +487,211 @@ nav ul li a {
 
 @media screen and (max-width: 320px){
 Write your iPhone Styles in between these curly brackets
+
+hr {
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid #ccc;
+	margin: 16px;
+	padding: 0px;
+	font-size: 40px;
+}
+
+header {
+	background-image: url('../img/head.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 100vw;
+	height: 290px;
+	margin: 0px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+nav {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	position: relative;
+	top: 250px;
+}
+nav ul {
+	list-style-type: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+
+}
+nav ul li {
+	margin: 35px;
+}
+nav ul li a {
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 30px;
+	font-family: 'Heebo', sans-serif;
+  width: 392.38px;
+  height: 28.67px;
+}
+
+.home_content {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+	flex-direction: row;
+	width: 90%;
+}
+.bio_picture {
+	background-image: url('../img/bladeebio.jpg');
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 392px;
+	height: 392px;
+  margin: 0px;
+}
+/* this sets up your row of illustrations */
+
+.illustration_section {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0px;
+	flex-direction: row;
+}
+/* this sets up the illustrations to be 20% in width to go across the page */
+
+.illustration_section img {
+	width: 20%;
+	height: auto;
+	margin: 1%;
+}
+/* this sets up your row of three photos */
+
+.threepanel {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 5% 0%;
+	flex-direction: row;
+	width: 100vw;
+}
+/* This sets up each image with associated link */
+
+#threepanel1 {
+	background-image: url('../img/bladee1.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 33.3%;
+	height: 470px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#threepanel2 {
+	background-image: url('../img/bladee2.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 33.3%;
+	height: 470px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#threepanel3 {
+	background-image: url('../img/bladee3.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 33.3%;
+	height: 470px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#threepanel1 a, #threepanel2 a, #threepanel3 a {
+	font-size: 50px;
+	text-decoration: none;
+	color: #000;
+	font-family: 'Monserrat', sans-serif;
+}
+
+.illustration_section img {
+	width: 10%;
+	height: auto;
+	margin: 5%;
+}
+
+.form_section {
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin: 0 auto;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+input {
+	width: 500px;
+	height: 75px;
+	margin: 1%;
+	font-family: 'Roboto', sans-serif;
+}
+textarea {
+	width: 500px;
+	height: 75px;
+	margin: 1%;
+	font-family: 'Roboto', sans-serif;
+}
+input[type="submit"] {
+	width: 320px;
+	height: 90px;
+	font-family: 'Roboto', sans-serif;
+}
+input, text area, {
+	color: #C4C4C4;
+	font-family: 'Roboto', sans-serif;
+}
+/* This is your footer....don't touch it */
+
+footer {
+	width: 100vw;
+	background-color: #D86867;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin: 0 auto;
+}
+.top_footer {
+	height: 95px;
+	width: 100vw;
+	background-color: #D86867;
+	position: relative;
+	bottom: 0;
+}
+.bottom_footer {
+	height: 75px;
+	width: 100vw;
+	background-color: #000;
+	position: relative;
+	bottom: 0;
+}
 
 }
 
