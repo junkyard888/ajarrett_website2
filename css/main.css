@@ -246,6 +246,20 @@ input, text area, {
 	color: #C4C4C4;
 	font-family: 'Roboto', sans-serif;
 }
+
+.horizontal_block {
+    display: flex;
+    width: 60%;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.horizontal_block img{
+	margin: 2%;
+}
+
+
 /* This is your footer....don't touch it */
 
 footer {
@@ -455,6 +469,8 @@ input, text area, {
 	color: #C4C4C4;
 	font-family: 'Roboto', sans-serif;
 }
+
+
 /* This is your footer....don't touch it */
 
 footer {
